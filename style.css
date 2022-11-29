@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 body {
 
@@ -26,14 +26,16 @@ div {
     border-radius: 10px;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
     color: hsl(218, 44%, 22%);
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
     font-weight: 400;
     color: hsl(220, 15%, 55%)
 }
@@ -52,12 +54,11 @@ p {
         height: 495px;
         width: 320px;
         border-radius: 10px;
-
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        margin: auto;
+        
         padding: 28px;
     }
 
@@ -66,14 +67,15 @@ p {
         border-radius: 10px;
     }
 
-    h2 {
-        font-family: 'Montserrat', sans-serif;
+    h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 27px;
         font-weight: 700;
         color: hsl(218, 44%, 22%);
     }
 
     p {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Outfit', sans-serif;
         font-weight: 400;
         color: hsl(220, 15%, 55%)
     }
